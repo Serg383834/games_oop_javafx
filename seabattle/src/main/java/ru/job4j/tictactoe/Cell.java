@@ -1,7 +1,6 @@
 package ru.job4j.tictactoe;
 
 /**
- *
  * @author Petr Arsentev (parsentev@yandex.ru)
  * @version $Id$
  * @since 0.1

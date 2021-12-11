@@ -8,6 +8,7 @@ import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 import javafx.stage.Stage;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -40,7 +41,7 @@ public class CatchBall extends Application {
         return apples;
     }
 
-    private void catchEnemy(Circle hero,  List<Circle> apples, Pane canvas) {
+    private void catchEnemy(Circle hero, List<Circle> apples, Pane canvas) {
         double heroX = hero.getTranslateX() + hero.getCenterX();
         double heroY = hero.getTranslateY() + hero.getCenterY();
         for (Circle apple : apples) {
